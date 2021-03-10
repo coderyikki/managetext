@@ -5,11 +5,13 @@
   "author": "yikki <1259544280@qq.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --open  --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "element-ui": "^2.15.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

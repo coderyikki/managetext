@@ -6,7 +6,17 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data(){
+    return {
+      
+    }
+  },
+  methods:{
+    handleChange(val){
+      console.log(val);
+    }
+  },
 }
 </script>
 
